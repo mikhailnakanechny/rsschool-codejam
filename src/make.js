@@ -7,5 +7,5 @@ module.exports = function make() {
     }
     array.push(...arguments);
     return solution;
-  }
+  };
 };

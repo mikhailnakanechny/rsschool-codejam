@@ -1,4 +1,4 @@
-module.exports =function recursion(tree) {
+module.exports = function recursion(tree) {
   const array = [];
 
   function recursiveFill(node, level) {
