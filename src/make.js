@@ -1,4 +1,4 @@
-function make() {
+module.exports = function make() {
   const array = [].concat(Array.prototype.slice.call(arguments));
 
   return function solution() {
@@ -7,5 +7,5 @@ function make() {
     }
     array.push(...arguments);
     return solution;
-  };
-}
+  }
+};
