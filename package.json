@@ -1,0 +1,24 @@
+{
+  "name": "rsschool-codejam",
+  "version": "1.0.0",
+  "description": "CodeJam-3 CoreJS",
+  "main": "test.js",
+  "author": "Mikhail Nakanechny",
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "5.8.0",
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "2.14.0",
+    "mocha": "^5.0.1"
+  },
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikhailnakanechny/rsschool-codejam/tree/codejam-3"
+  },
+  "homepage": "https://github.com/mikhailnakanechny/rsschool-codejam#readme",
+  "license": "ISC"
+}
